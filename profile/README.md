@@ -1,11 +1,36 @@
 # VAOS™
 ### Vision Agent Operating System
 
+**Open perception and cognition infrastructure for Physical AI.**
+
 ```
 Observe → Structure → Think → Validate → Act → Learn
 ```
 
-VAOS is the open perception and cognition infrastructure layer for robotics, automation, vision systems, and physical AI.
+```mermaid
+flowchart LR
+    Camera --> SceneContract[Scene Contract]
+    SceneContract --> Runtime
+    Runtime --> Validation[Validation Engine]
+    Validation --> Decision
+    Decision --> SDKs
+    Decision --> Dashboard
+    Decision --> Applications
+```
+
+---
+
+## Current Status
+
+| | Component | Version |
+|---|-----------|---------|
+| 🟢 | Governance | 1.0 |
+| 🟢 | Scene Contract | 1.0 |
+| 🟢 | SDK | 1.0 |
+| 🟢 | Dashboard Demo | Available |
+| 🟡 | Runtime Documentation | In Progress |
+| 🟡 | Public Website | In Progress |
+| 🔵 | Future Ecosystem | v2.5+ |
 
 ---
 
@@ -21,11 +46,17 @@ VAOS is the open perception and cognition infrastructure layer for robotics, aut
 
 ---
 
-## Current Release
+## Roadmap
 
-**VAOS v2.0** — Kernel Consolidation
-
-Scene Contract 1.0 · SDK 1.0 · Governance 1.0
+| Version | Milestone | Status |
+|---------|-----------|--------|
+| v2.0 | Runtime Stabilization | ✓ |
+| v2.1 | Sensor Fusion | Planned |
+| v2.2 | Memory Summaries | Planned |
+| v2.3 | Predictive Reasoning | Planned |
+| v2.5 | Adaptive Perception | Planned |
+| v2.7 | Multi-Agent Runtime | Planned |
+| v3.0 | Ecosystem Platform | Planned |
 
 ---
 
