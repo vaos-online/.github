@@ -43,6 +43,7 @@ Every observation is structured before it is interpreted.
 ## Links
 
 - **Website:** [vaos.online](https://vaos.online)
+- **Discord:** [discord.gg/Mg7TztrU](https://discord.gg/Mg7TztrU)
 - **Documentation:** [vaos-docs](https://github.com/vaos-online/vaos-docs)
 - **Scene Contract:** [vaos.online/schemas/scene.schema.json](https://www.vaos.online/schemas/scene.schema.json)
 
