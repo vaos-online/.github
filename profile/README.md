@@ -1,7 +1,9 @@
-# VAOS™
+# Vision-Native Cognitive Runtime (VAOS™)
 ### Vision Agent Operating System
 
-**Open perception and cognition infrastructure for Physical AI.**
+**VAOS is a vision-native cognitive runtime for machine perception. 
+  It transforms camera observations into validated scene understanding through Scene Contracts, 
+  temporal memory, reasoning, validation, and decision orchestration.**
 
 ```
 Observe → Structure → Think → Validate → Act → Learn
